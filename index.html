@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styleVideo.css">
+    <title>Vídeo</title>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Controle de Vídeo</h1>
+    </header>
+
+    <section class="container">
+        <video  id="video1" src="./video/Jessé Aguiar  Existe Vida Aí.mp4" poster="./img/thumbnail.jpg"></video>
+
+        <div id="controles">
+            <img onclick="retroceder()" src="./img/media-player-ui-button-backward-svgrepo-com.svg"  alt="">
+            <img onclick="stop()" src="./img/media-player-ui-button-stop-svgrepo-com.svg"  alt="">
+            <img onclick="play()" src="./img/media-player-ui-button-play-svgrepo-com.svg"  alt="">
+            <img onclick="pause()" src="./img/media-player-ui-button-pause-svgrepo-com.svg"  alt="">
+            <img onclick="avancar()" src="./img/media-player-ui-button-forward-svgrepo-com.svg"  alt="">
+        </div>
+    </section>
+
+    <script src="./script/video.js"></script>
+</body>
+</html>
